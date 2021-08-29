@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body {
+  background-color: black;
+  text-align: center;
+  margin-top: 100px;
+}
+.logo {
+  color: white;
+  display: inline-block;
+  font-family: 'Great Vibes', cursive;
+  margin-top: 80px;
+  margin-right: 4%;
+  z-index: -1;
+}
+
+.Painel {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  cursor: pointer;
+}
+.Painel:hover {
+  box-shadow: inset 0px 0px 0px 3px white;
+  box-sizing: border-box;
+}
+
+.base-esquerdo-Painel {
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+}
+
+.base-direita-Painel {
+  background-color: blue;
+  border-bottom-right-radius: 100%;
+}
+
+.topo-esquerdo-Painel {
+  background-color: green;
+  border-top-left-radius: 100%;
+}
+
+.topo-direita-Painel {
+  background-color: red;
+  border-top-right-radius: 100%;
+}
+
+.click {
+  background-color: white;
+}
+
+.centro {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+  top: 195px;
+  left: 580px;
+}
+
+#name {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
